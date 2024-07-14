@@ -25,7 +25,11 @@ int main() {
             cin.ignore(); // Pokupi blanko karaktere
             getline(cin, message); 
 
-            frqMap.clear(); 
+            frqMap.clear();
+            codeMap.clear();
+            delete root; 
+            root = nullptr;
+
             for (char ch : message) {
                 frqMap[ch]++;
             }
