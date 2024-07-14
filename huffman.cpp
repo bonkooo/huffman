@@ -56,7 +56,7 @@ void generateCodes(Node* root, const string& str, unordered_map<char, string>& c
     }
 
     generateCodes(root->left, str + "0", codeMap);
-    generateCodes(root->left, str + "1", codeMap);
+    generateCodes(root->right, str + "1", codeMap);
 }
 
 string encode(string& message, unordered_map<char, string>& codeMap)
