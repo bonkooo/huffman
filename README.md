@@ -19,7 +19,7 @@ Note that the the encoded message is a string itself and not binary code as this
 3. **Encoding**: Each character is replaced with its corresponding binary code.
 4. **Decoding**: The binary code is translated back to the original message using the Huffman tree.
 
-![Huffman Tree](huffman.png)
+<img src="huffman.png" width="600" height="400" alt="Demonstration">
 
 ## File Descriptions
 
