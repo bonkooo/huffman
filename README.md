@@ -1,4 +1,4 @@
-# Huffman Coding Compression Tool
+# Huffman Coding Compression Demonstration
 
 ## Overview
 
